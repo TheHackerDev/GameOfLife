@@ -114,7 +114,7 @@
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Text="Generation #: " HorizontalAlignment="Stretch" VerticalAlignment="Center"  TextAlignment="Right" Foreground="White" FontWeight="Bold" Height="16" />
         <TextBlock Grid.Row="0" Grid.Column="6" Text="{Binding Path=NumGenerations, Mode=OneWay}" HorizontalAlignment="Stretch" VerticalAlignment="Center" Foreground="White" TextAlignment="Left" FontWeight="Bold" Height="auto" />
         <Button Grid.Row="0" Grid.Column="23" Grid.ColumnSpan="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="New" Background="#FF272727" Foreground="White" BorderBrush="White" Click="NewCells" FontWeight="Bold" Height="auto" Margin="0,5"/>
-        <Button Grid.Row="0" Grid.Column="40" Grid.ColumnSpan="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="{Binding Path=StartOrStop, Mode=OneWay}" Background="#FF272727" Foreground="White" BorderBrush="White" Click="StartStopCellWorld" FontWeight="Bold" Height="auto" Margin="0,5"/>
+        <!--<Button Grid.Row="0" Grid.Column="40" Grid.ColumnSpan="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="{Binding Path=StartOrStop, Mode=OneWay}" Background="#FF272727" Foreground="White" BorderBrush="White" Click="StartStopCellWorld" FontWeight="Bold" Height="auto" Margin="0,5"/>-->
         <!--Region Cells-->
         <!--Region Row 1-->
         <Ellipse Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stroke="Black" Fill="White" Width="auto" Height="auto" Margin="2" Visibility="{Binding Path=CellLocations[0], Converter={StaticResource BooleanToVisibilityConverter}, Mode=OneWay}" />
