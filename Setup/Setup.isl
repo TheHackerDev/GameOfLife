@@ -1894,6 +1894,7 @@
 		<col def="S255">Data</col>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
+		<row><td>_Built</td><td/></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -3574,7 +3575,7 @@
 		<row><td>IDS_PROGMSG_XML_ROLLBACK_FILES</td><td>1033</td><td>Rolling back XML file changes...</td><td>0</td><td/><td>874609071</td></row>
 		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1033</td><td>Updating XML file %s...</td><td>0</td><td/><td>874609071</td></row>
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>874609071</td></row>
-		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>874603535</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Game of Life</td><td>0</td><td/><td>-459164661</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>874609071</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>874609071</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>874609071</td></row>
@@ -3864,7 +3865,7 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>874609071</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>874609071</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>874611119</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://www.SpectralSoftware.com</td><td>0</td><td/><td>1008801196</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.SpectralSoft.net</td><td>0</td><td/><td>-459160501</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Spectral Software</td><td>0</td><td/><td>1008801196</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>874607631</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>874609071</td></row>
@@ -3974,7 +3975,9 @@
 		<col def="V0">Data</col>
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
-		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>ARPPRODUCTICON.exe</td><td/><td>C:\Users\Me\Documents\SpiderOak Hive\Code\Source Code\C#\Game Of Life\Game-of-Life-logo.ico</td><td>0</td></row>
+		<row><td>_Built1_69A816DEDB7B4B29A3ADE35150EF6D18.exe</td><td/><td>C:\Users\Me\Documents\SpiderOak Hive\Code\Source Code\C#\Game Of Life\Game-of-Life-logo.ico</td><td>0</td></row>
+		<row><td>_Built_24CEE064A7424E1090C001B4EF2712BF.exe</td><td/><td>C:\Users\Me\Documents\SpiderOak Hive\Code\Source Code\C#\Game Of Life\Game-of-Life-logo.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4650,8 +4653,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>gameof_1_game_of_life</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Game_Of_Life.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Game_Of_Life.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>gameof_1_game_of_life</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Game_Of_Life.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_24CEE064A7424E1090C001B4EF2712BF.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Game_Of_Life.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_69A816DEDB7B4B29A3ADE35150EF6D18.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
